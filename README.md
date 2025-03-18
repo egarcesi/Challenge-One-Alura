@@ -3,6 +3,7 @@
 
 Este proyecto es parte del programa **Oracle Next Education (ONE)** en colaboración con **Alura Latam**. Consiste en una aplicación web para realizar un **sorteo de amigo secreto**, con una interfaz amigable, validaciones, animaciones y efectos visuales.
 
+
 ## 🌟 Funcionalidades
 
 ✅ Agregar nombres a una lista  
@@ -13,6 +14,7 @@ Este proyecto es parte del programa **Oracle Next Education (ONE)** en colaborac
 ✅ Efecto de confeti al seleccionar al amigo secreto  
 ✅ Sonido de celebración  
 ✅ Imagen de fondo personalizada    
+
 
 ## 🚀 Tecnologías utilizadas
 
@@ -42,11 +44,14 @@ Este proyecto es parte del programa **Oracle Next Education (ONE)** en colaborac
 👉 Puedes ver el proyecto en vivo aquí:
 🔗 https://challenge-one-alura-d7hj.vercel.app/
 
+
 ## 👩‍💻 Desarrollado por
 
 Elizabeth Garcés Isaza
 Geóloga interesada en tecnología, programación y soluciones creativas con impacto social. 💚
-LinkedIn | GitHub
+LinkedIn: https://www.linkedin.com/in/elizabeth-garc%C3%A9s-isaza-405567142/
+
+
 
 ## 📚 Créditos
 
