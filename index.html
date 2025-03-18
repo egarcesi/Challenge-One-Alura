@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGO AMIGO SECRETO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="overlay">
+        <h1>🎉 JUEGO AMIGOS SECRETOS 🎉</h1>
+    
+        <input type="text" id="nombreInput" placeholder="Escribe el nombre de un amigo">
+        <button onclick="agregarNombre()">Adicionar</button>
+    
+        <ul id="listaNombres"></ul>
+    
+        <button onclick="sortearAmigo()">Sortear Amigo</button>
+    
+        <div id="resultado"></div>
+      </div>
+    
+        <audio id="drumSound" src="Audio/Drum.mp3"></audio>
+        <audio id="winSound" src="Audio/win.mp3"></audio>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+
+    </body>
+    </html>
+

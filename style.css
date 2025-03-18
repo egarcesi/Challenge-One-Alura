@@ -1,0 +1,105 @@
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-image: url('Images/AmigoSecreto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Capa overlay semitransparente */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* negro con opacidad */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 95%;
+    max-width: 750px;
+    color: #d8ff4b;
+  }
+  
+  /* Inputs y botones */
+  input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0afd06;
+  }
+  
+  /* Lista de nombres */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Resultado del sorteo */
+  #resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+
+/* Efecto de movimiento (shake) */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .shake {
+    animation: shake 0.5s ease;
+  }
+  
+/* Efecto de resaltado */
+.resaltado {
+    background-color: #4CAF50 !important; /* Verde brillante */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    transform: scale(1.1);
+  }
+  
+  
